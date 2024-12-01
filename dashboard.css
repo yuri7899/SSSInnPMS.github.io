@@ -1,0 +1,371 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: lightgrey;
+	position: relative;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.home {
+	position: relative;
+	left: 140px;
+	bottom: 30px;
+	color: white;
+}
+
+.header {
+	background-color: blue;
+	width: 390vh;
+	padding: auto;
+	height: 40vh;
+}
+
+h1 {
+	margin-left: 30px;
+	color: white;
+}
+
+
+
+.Options nav a {
+	text-decoration: none;
+	margin: 0 25px;
+	color: white;
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	position: relative;
+	left: 20vh;
+	font-size: 23px;
+	transition: color 0.3s;
+	font-weight: 600;
+}
+
+.Options nav a:hover {
+	color: yellow;
+}
+
+.User {
+	width: 195px;
+	height: 55px;
+	border-radius: 3px;
+	border:aliceblue;
+	position: relative;
+	left: 1310px;
+	bottom: 120px;	
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.usersvg {
+	width: 24px;
+  height: 24px;
+  margin-left: 8px; 
+}
+
+
+.intro {
+	font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+	color: white;
+	position: relative;
+	top: 50px;
+	left: 90px;
+}
+
+.Reservation {
+	width: 400px;
+	height: 90px;
+	border-radius: 10px;;
+	position: relative;
+	left: 70px;
+	bottom: 45px;
+	border: none;
+	background-color: darkblue;
+	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 18px;
+	filter: drop-shadow(1px 1px 4px black);
+}
+
+.Status {
+	width: 400px;
+	height: 90px;
+	border-radius:10px;
+	position: relative;
+	left: 580px;
+	bottom: 135px;
+	border: none;
+	background-color: steelblue;
+	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 18px;
+	filter: drop-shadow(1px 1px 4px black);
+}
+
+.Room {
+	width: 400px;
+	height: 90px;
+	border-radius: 10px;
+	position: relative;
+	left: 1070px;
+	bottom: 225px;
+	border: none;
+	background-color: dodgerblue;
+	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 18px;
+	filter: drop-shadow(1px 1px 4px black);
+}
+
+.Folder {
+	height: 30px;
+	width: 30px;
+	position: relative;
+	right: 280px;
+	bottom: 40px;
+}
+
+.Bed {
+	height: 30px;
+	width: 30px;
+	position: relative;
+	left: 270px;
+	bottom: 130px;
+}
+
+.Pencil {
+	height: 40px;
+	width: 40px;
+	position: relative;
+	left: 750px;
+	bottom: 215px;
+}
+
+.container {
+	width: 950px;
+	height: 400px;
+	background-color: white;
+	border-radius: 10px;
+	position: relative;
+	left: 50px;
+	bottom: 140px;
+}
+
+.container h4 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	position: relative;
+	left: 20px;
+	top: 20px;
+
+}
+
+.dashboard {
+	position: relative;
+	top: 100px;
+	left: 60px;
+	height: 240px;
+	width: 110vh;
+}
+
+.sales {
+	display: flex;
+	position: relative;
+	bottom: 200px;
+	justify-content: space-around;
+}
+
+.section {
+	display: flex;
+	align-content: space-around;
+}
+
+.container2 {
+	background-color: white;
+	height: 600px;
+	width: 450px;
+	border-radius: 10px;
+	position: relative;
+	left: 100px;
+	bottom: 138px;
+}
+
+.container2 h3 {
+	font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+	position: relative;
+	left: 25px;
+	top: 20px;
+}
+
+.barcontainer{
+	position: relative;
+	left: 25px;
+	top: 100px;
+}
+
+.bar {
+	background-color: blue;
+	width: 100px;
+	height: 35px;
+	border-radius: 20px;
+	color: white;
+	border: none;
+	font-size: 25px;
+}
+
+.bar p {
+	margin-left: 6px;
+}
+
+.bar2 {
+	background-color: steelblue;
+	width: 180px;
+	height: 35px;
+	border-radius: 20px;
+	color: white;
+	border: none;
+	font-size: 25px;
+}
+
+.bar2 p{
+	margin-left: 6px;
+}
+
+.bar3 {
+	background-color: slateblue;
+	width: 40px;
+	height: 35px;
+	border-radius: 20px;
+	color: white;
+	border: none;
+	font-size: 25px;
+}
+
+.bar3 p{
+	margin-left: 6px;
+}
+
+.bar4 {
+	background-color: skyblue;
+	width: 400px;
+	height: 35px;
+	border-radius: 20px;
+	color: white;
+	border: none;
+	font-size: 25px;
+}
+
+.bar4 p{
+	margin-left: 6px;
+}
+
+input[type="date"] {
+	border-radius: 6px;
+	width: 60%;
+	height: 40px;
+	position: relative;
+  left: 30px;
+  top: 120px;
+  background: skyblue url(calendar.svg);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 95%;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 999;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator{
+	opacity: 0;
+	width: 40px;
+	height: 40px;
+}
+
+.h5 {
+	text-align: center;
+	position: relative;
+	top: 140px	;
+}
+
+.container2 hr {
+	position: relative;
+	top: 40px;
+}
+
+.ADI {
+	display: flex;
+}
+
+
+.ADI nav a {
+text-decoration: none;
+	margin: 0 25px;
+	color: blueviolet;
+	font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+	position: relative;
+	left: 4vh;
+	bottom: 45vh;
+	font-size: 23px;
+	transition: color 0.3s;
+	font-weight: 999;
+}
+
+.ADI nav a:hover {
+	color: grey;
+}
+
+.blank {
+	background-color: white;
+	height: 100px;
+	width: 950px;
+	border-radius: 10px;
+	position: relative;
+	right: 405px;
+	bottom: 265px;
+}
+
+.Inblank {
+	background-color: lightgrey;
+	width: 500px;
+	height: 70px;
+	position: relative;
+	left: 25px;
+	top: 15px;
+}
+
+.Inblank p {
+	font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	font-size: 30px;
+	position: relative;
+	left: 20px;
+	top: 10px;
+}
+
+.Inblank .Date {
+	position: relative;
+	left: 540px;
+	top: -40px;
+	height: 70px;
+	width: 350px;
+}
+
+.footer {
+	background-color: steelblue;
+	text-align: center;
+	height: 40px;
+}
+
+
+
